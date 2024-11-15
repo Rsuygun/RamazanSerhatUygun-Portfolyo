@@ -1,0 +1,220 @@
+body {
+  background-size: cover;
+  padding: 0 20px;
+}
+
+.navbar {
+  flex-direction: row;
+  height: auto;
+  padding: 20px 0;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  flex-direction: row;
+  font-size: 22px;
+}
+
+.navbar ul li a {
+  padding: 15px;
+}
+
+.social-media {
+  justify-content: flex-end;
+  padding: 20px 0;
+}
+
+.navbar-bg {
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+  font-size: 12px;
+  justify-content: end;
+  opacity: 0.8;
+}
+
+/* İletişim */
+.main {
+  flex-direction: column;
+  padding: 20px;
+}
+
+#date {
+  font-size: 22px;
+  margin-top: 120px;
+}
+
+.main-h1 {
+  font-size: 50px;
+}
+
+.main-h2 {
+  font-size: 16px;
+}
+
+.contact-area {
+  background-color: #192b35;
+  padding: 20px 10px;
+  margin: 30px auto;
+  border-radius: 15px;
+  max-width: none;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact {
+  height: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact label {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-family: "Pacifico", cursive;
+  color: #435864;
+}
+
+.contact p {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 15px;
+  font-family: "Pacifico", cursive;
+  color: #435864;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  outline: none;
+  border-bottom: 2px solid #2a3c46;
+  color: #7992a1;
+  font-family: "DynaPuff", system-ui;
+}
+
+.contact input::placeholder,
+.contact textarea::placeholder {
+  color: #a3a2a2;
+}
+
+.contact textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.contact button {
+  width: 100%;
+  padding: 15px 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #dedede;
+  background-color: #2a3c46;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.contact button:hover {
+  background-color: #405661;
+}
+
+#error-message {
+  color: #cd0000b3;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 0;
+  font-family: "Bona Nova SC", serif;
+  text-align: center;
+}
+
+/* Hakkımda */
+
+.about {
+  text-align: center;
+}
+
+.name {
+  font-size: 60px;
+  margin-top: 150px;
+  margin-bottom: 25px;
+}
+
+.desc,
+.desc-hidden {
+  margin: 0 100px;
+  font-size: 24px;
+}
+
+.about-me {
+  margin-bottom: 20px;
+  margin-right: 150px;
+  font-size: 24px;
+}
+
+.hobies {
+  margin-bottom: 20px;
+  margin-right: 80px;
+  font-size: 24px;
+}
+
+.desc-button {
+  font-size: 22px;
+  padding: 10px 30px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+/* Projelerim */
+
+.project {
+  font-size: 60px;
+  margin: 30px 0;
+}
+
+.img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 15px;
+}
+
+.alt-image {
+  max-width: 100%;
+  height: 400px;
+  padding: 15px;
+  gap: 12px;
+}
+
+.alt-image img {
+  max-width: 100%;
+  height: 280px;
+  border-radius: 10px;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin-top: auto;
+}
+.modal-content {
+  width: 80%;
+  padding: 20px;
+}
+
+.modal-content p {
+  font-size: 20px;
+}
+

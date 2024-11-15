@@ -1,0 +1,118 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#date {
+  font-style: italic;
+  font-size: 30px;
+  margin-top: 230px;
+  font-family: "Pacifico", cursive;
+  color: #052b0e;
+}
+
+.main-h1 {
+  font-size: 80px;
+  margin: 0 0 0 0;
+  font-family: "Pacifico", cursive;
+  color: #052b0e;
+}
+
+.main-h2 {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+  color: #052b0e;
+}
+
+.contact-area {
+  background-color: #192b35;
+  padding: 20px;
+  margin-left: 90px;
+  margin-top: 350px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+}
+
+.contact {
+  height: 540px;
+  width: 900px;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact label {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-family: "Pacifico", cursive;
+  color: #435864;
+}
+
+.contact p {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-family: "Pacifico", cursive;
+  color: #435864;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  outline: none;
+  border-bottom: 2px solid #2a3c46;
+  color: #7992a1;
+  font-family: "DynaPuff", system-ui;
+}
+
+.contact input::placeholder,
+.contact textarea::placeholder {
+  color: #a3a2a2;
+}
+
+.contact textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.contact button {
+  padding: 15px 423px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #dedede;
+  background-color: #2a3c46;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact button:hover {
+  background-color: #405661;
+}
+
+#error-message {
+  color: #cd0000b3;
+  display: none;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-family: "Bona Nova SC", serif;
+  text-align: center;
+}

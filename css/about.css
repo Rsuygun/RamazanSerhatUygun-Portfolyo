@@ -1,0 +1,59 @@
+.about {
+  text-align: center;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Pacifico", cursive;
+  font-size: 80px;
+  margin-top: 200px;
+  margin-bottom: 30px;
+  flex-direction: column;
+}
+
+.desc {
+  margin: 0 300px;
+  font-family: "Indie Flower", cursive;
+  font-size: 30px;
+  font-weight: bold;
+}
+.desc-hidden {
+  margin: 0 300px;
+  font-family: "Indie Flower", cursive;
+  font-size: 30px;
+  display: none;
+  font-weight: bold;
+}
+
+.about-me {
+  margin-bottom: 20px;
+  margin-right: 600px;
+  font-family: "Indie Flower", cursive;
+  font-size: 30px;
+}
+
+.hobies {
+  margin-bottom: 20px;
+  margin-right: 130px;
+  font-family: "Indie Flower", cursive;
+  font-size: 30px;
+}
+
+.desc-button {
+  font-family: "Indie Flower", cursive;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px 40px 10px 40px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 60px;
+  background-color: #021707;
+  color: #7d7d7d;
+}
+
+.desc-button:hover {
+  background-color: #5b5b5b;
+  color: #021707;
+}
